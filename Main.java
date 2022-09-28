@@ -5,6 +5,7 @@ public class Main {
         Database database = new Database();
         ExponentialDistribution distribution = new ExponentialDistribution(1.0);
         database.setRange();
-        database.createValuesArray();
+//        database.createValuesArray();
+        database.createDatabase();
     }
 }
